@@ -2,7 +2,7 @@ import React, { PropsWithChildren } from "react";
 import clsx from "clsx";
 
 type Props = {
-  className: string;
+  className?: string;
 };
 
 const Card = ({ children, className }: PropsWithChildren<Props>) => {
